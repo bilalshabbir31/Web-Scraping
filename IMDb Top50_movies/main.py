@@ -91,9 +91,9 @@ Dataset=pd.DataFrame(
         'Gross':movies_gross
     }
 )
-# print(Dataset.head())
+print(Dataset.head())
 
-# Dataset.to_csv('IMDb-Top50.csv')
+Dataset.to_csv('IMDb-Top50.csv')
 
 ######################################################
 #               Creating Databases
