@@ -99,7 +99,7 @@ Dataset=pd.DataFrame(
 #               Creating Databases
 #####################################################
 
-connection=sqlite3.connect('IMDb-Top50')
+connection=sqlite3.connect('IMDb-Top50.db')
 cursor=connection.cursor()
 
 cursor.execute("Create table top50 (Name,Release_Year,Certificate,Running_time,Rating,MetaScores,Votes,Gross)")
